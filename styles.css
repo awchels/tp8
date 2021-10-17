@@ -1,0 +1,110 @@
+h4 {
+  margin-bottom: 0;
+  font-family: Serif;
+  color: #67734D;
+  font-size: 20px;
+  font-style: italic;
+}
+
+ul, ol {
+  margin-top: 0;
+}
+
+.copyright {
+  font-family: Serif;
+  font-size: 9px;
+  font-style: italic;
+}
+
+body {
+  background-color: #EEE2C6;
+    padding: 0;
+    margin: 0;
+}
+
+b {
+  color: #808080;
+}
+
+mark {
+  background-color: #A69B92;
+}
+
+div#musubiHeader {
+  font-family: Serif;
+  color: #67734D;
+  text-align: center;
+  padding-top: 50vh;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top center;
+  background-image: url(https://www.favfamilyrecipes.com/wp-content/uploads/2020/06/Musubi-Process-Shot-4.jpg);
+
+}
+
+#musubiHeader.tp6 {
+  font-size: 50px;
+    color: white;
+}
+
+ul, ol {
+  display: none; 
+}
+
+ul.showMe,
+ol.showMe {
+  display: block;
+}
+
+/* this is mobile-first CSS for 3 rows */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  display: inline-block; 
+  width: 100vw;
+  padding: 1vw;
+}
+
+#ingredients {  
+}
+
+#equipment {
+ 
+}
+
+#directions {
+ 
+}
+
+h4 {
+  font-size: 30px;
+}
+
+#footer {
+  font-size: 10px;
+  color: red;
+  
+}
+
+/* responsive design */
+@media (orientation:landscape) {
+  
+  div {
+    width: calc(100vw/3 - 1vw);
+    float: left;
+  }
+  
+  h4 {
+    font-size: 20px;
+  }
+}
